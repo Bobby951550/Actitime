@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Suite Execution startsThu Apr 11 23:34:39 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[https://app.acceptmission.com/signup_companyurl is navigated]]>
+    </line>
+    <line>
+      <![CDATA[validSignUpscript execution startsThu Apr 11 23:34:57 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[<br>clickLoginBtn]]>
+    </line>
+    <line>
+      <![CDATA[<br>clickLoginBtn]]>
+    </line>
+    <line>
+      <![CDATA[<br>clickLoginBtn]]>
+    </line>
+    <line>
+      <![CDATA[<br>clickLoginBtn]]>
+    </line>
+    <line>
+      <![CDATA[<br>clickLoginBtn]]>
+    </line>
+    <line>
+      <![CDATA[<br>clickLoginBtn]]>
+    </line>
+    <line>
+      <![CDATA[<br>clickLoginBtn]]>
+    </line>
+    <line>
+      <![CDATA[<br>clickLoginBtn]]>
+    </line>
+    <line>
+      <![CDATA[validSignUpscript is passed:)]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[All sessions are closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36317" started-at="2019-04-11T18:04:39Z" finished-at="2019-04-11T18:05:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36317" started-at="2019-04-11T18:04:39Z" finished-at="2019-04-11T18:05:15Z">
+      <class name="com.acceptmission.scripts.MSignUpTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.acceptmission.scripts.MSignUpTest@42d80b78]" name="preCondition" is-config="true" duration-ms="18235" started-at="2019-04-11T18:04:39Z" finished-at="2019-04-11T18:04:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.acceptmission.com/signup_company]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser Launched]]>
+            </line>
+            <line>
+              <![CDATA[https://app.acceptmission.com/signup_companyurl is navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="validSignUp()[pri:0, instance:com.acceptmission.scripts.MSignUpTest@42d80b78]" name="validSignUp" duration-ms="14687" started-at="2019-04-11T18:04:57Z" finished-at="2019-04-11T18:05:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[validSignUpscript execution startsThu Apr 11 23:34:57 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[<br>clickLoginBtn]]>
+            </line>
+            <line>
+              <![CDATA[<br>clickLoginBtn]]>
+            </line>
+            <line>
+              <![CDATA[<br>clickLoginBtn]]>
+            </line>
+            <line>
+              <![CDATA[<br>clickLoginBtn]]>
+            </line>
+            <line>
+              <![CDATA[<br>clickLoginBtn]]>
+            </line>
+            <line>
+              <![CDATA[<br>clickLoginBtn]]>
+            </line>
+            <line>
+              <![CDATA[<br>clickLoginBtn]]>
+            </line>
+            <line>
+              <![CDATA[<br>clickLoginBtn]]>
+            </line>
+            <line>
+              <![CDATA[validSignUpscript is passed:)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validSignUp -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.acceptmission.scripts.MSignUpTest@42d80b78]" name="postCondition" is-config="true" duration-ms="3227" started-at="2019-04-11T18:05:12Z" finished-at="2019-04-11T18:05:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+            <line>
+              <![CDATA[All sessions are closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.acceptmission.scripts.MSignUpTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
